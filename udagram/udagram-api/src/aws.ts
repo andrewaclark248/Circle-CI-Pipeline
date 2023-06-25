@@ -1,4 +1,4 @@
-import AWS = require("aws-sdk");
+import AWS from 'aws-sdk';
 import { config } from "./config/config";
 
 //Credentials are auto set according to the documentation https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html and the default profile is "Default anyway"

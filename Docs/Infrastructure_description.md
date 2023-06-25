@@ -10,6 +10,8 @@ S3 hosts a website. S3 looks for a index.html file that enables the dynamic Udag
 
 When the user creates a new account, create a post, or view posts a requests to made to the api via javascript assocaited in index.html file.
 
+S3 URL:
+http://udacity-pipeline-bucket-v2.s3-website-us-east-1.amazonaws.com/
 
 ### Elastic Bean Stalk
 Elastic Bean stalk host our api. Elastic Bean stalk enables to specify env vars in our app. These env vars include credentials, DB information etc. Elastic bean stalk also provisions a domain on our behalf. We supply this domain name to the front end app. This enables communication between the api and the front end.
